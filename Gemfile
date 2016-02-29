@@ -5,7 +5,7 @@ ruby '2.2.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3' 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -48,9 +48,9 @@ group :development, :test do
   gem 'byebug'
 end
 
-# group :development do
-#   gem 'sqlite3', '1.3.8'
-# end
+group :development do
+ gem 'sqlite3', '1.3.11'
+ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
